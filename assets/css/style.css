@@ -57,10 +57,15 @@ body {
 }
 
 .container {
-    max-width:960px;
-    height: 500px;
-    border: 2px solid green;
+    max-width:980px;
+    height: 1300px;
+    padding-left: 20px;
+    padding-left: 20px;
     margin: auto;
+    margin-top: 15px;
+    border: 3px solid rgb(76, 199, 189);
+    border-bottom: none;
+    border-radius: 30px;
     
 }
 
@@ -77,6 +82,7 @@ body {
     float: left;
     max-width:200px;
     font-size:2.5em;
+    margin-top: 12px;
     
 }
 
@@ -87,19 +93,29 @@ img {
     width: 200px;
 
 }
-#userInput {
-    float: right;
-    border-radius: 100px;
-}
 
 .searchText {
     float: right;
-}
-
-#newTopic {
-    font: 0.8em;;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+     
+ }
+#userInput {
     float: right;
     border-radius: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+#newTopic {
+    font: 0.8em;
+    float: right;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-right: -292px;
 }
 
 gifClass {
