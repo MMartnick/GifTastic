@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 // global variables, var topic Array for initial buttons and selections get added to the list
-    var topics = ["robots", "cats", "banana"];
+    var topics = ["knights", "ninjas", "cowboys", "vikings", "samurai" ];
     var APIkey = "HnwEUjRsaJaX8vU1bfO0ckLptR6eII0I";
     var currentSelection = "";
 

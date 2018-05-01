@@ -52,46 +52,48 @@ table {
 body {
     font-family: 'Do Hyeon', sans-serif;
     font-size: 20px;
-    background-color: rgb(56, 59, 61);
+    background-color: rgb(233, 186, 115);
     color: aliceblue;
 }
 
 .container {
-    max-width:980px;
-    height: 1300px;
+    width: 980px;
+    max-height: fit-content;
     padding-left: 20px;
     padding-left: 20px;
+    padding-bottom: 60px;
     margin: auto;
     margin-top: 15px;
     border: 3px solid rgb(76, 199, 189);
-    border-bottom: none;
     border-radius: 30px;
-    
+    background-color: rgb(56, 59, 61); 
 }
 
 .item{
     width: 200px;
-    display: inline-block;
+    display: inline-table;
     margin-top: 80px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
-}
-
-.title {
-    float: left;
-    max-width:200px;
-    font-size:2.5em;
-    margin-top: 12px;
     
 }
 
 img {
-    padding:16px;
+
     border-radius: 40px;
     display: inline-flex;
     width: 200px;
+    border: 3px solid rgb(76, 199, 189);
+}
 
+.title {
+    float: left;
+    width:200px;
+    height: 60px;
+    font-size:2.5em;
+    margin-top: 12px;
+    
 }
 
 .searchText {
@@ -118,9 +120,10 @@ img {
     margin-right: -292px;
 }
 
-gifClass {
-    font: 0.8em;;
-    float: right;
+button {
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 20px;
     border-radius: 100px;
 }
 
