@@ -52,6 +52,25 @@ table {
 body {
     font-family: 'Do Hyeon', sans-serif;
     font-size: 20px;
+    background-color: rgb(56, 59, 61);
+    color: aliceblue;
+}
+
+.container {
+    max-width:960px;
+    height: 500px;
+    border: 2px solid green;
+    margin: auto;
+    
+}
+
+.item{
+    width: 200px;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
 }
 
 .title {
@@ -64,6 +83,9 @@ body {
 img {
     padding:16px;
     border-radius: 40px;
+    display: inline-flex;
+    width: 200px;
+
 }
 #userInput {
     float: right;
@@ -87,13 +109,10 @@ gifClass {
 }
 
 
-.container {
-    max-width:1080px;
-    margin:auto;
-    min-height: 80%;
-    background-image:url("../images/circles-dark.png");
-}
+
 
 #search {
     border-radius: 100px;
 }
+
+g

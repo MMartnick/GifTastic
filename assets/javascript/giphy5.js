@@ -72,6 +72,8 @@ $(document).ready(function () {
                             gifDiv.append(p);
 
                             $("#gifList").prepend(gifDiv);
+
+                            
                         }
                     }
                     renderImage();
